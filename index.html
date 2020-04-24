@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="calculationMethods.js"></script>
+</head>
+
+<body>
+    <div id="calculationBox">
+        <input class="equationElement" type="number">
+        <select id="sign" class="equationElement">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input class="equationElement" type="number">
+        <button id="button" onclick="calculate()">calculate</button>
+    </div>
+    <div id="answerBox">
+        <p> 0 </p>
+    </div>
+</body>
+
+</html>
